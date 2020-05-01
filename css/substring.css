@@ -1,0 +1,43 @@
+html, body { height: 100%; }
+
+hr {
+  flex-basis: 100%;
+  margin-block-end: 0.25em;
+  margin-block-start: 0.25em;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.wrapper {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  padding: 16px 24px;
+  width: 80%;
+}
+
+.message {
+  font-weight: 100;
+}
+
+form {
+  grid-gap: 10px;
+  display: flex;
+  max-width: 100%;
+  width: 380;
+}
+
+button {
+  border-radius: 3px;
+  border: 1px solid seagreen;
+  font-size: 16px;
+  padding: 2px 12px;
+}
